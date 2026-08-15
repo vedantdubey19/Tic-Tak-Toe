@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <header>
+        <p class="eyebrow">Classic game, fresh look</p>
+        <h1>Tic <span>Tac</span> Toe</h1>
+      </header>
+
+      <section class="scoreboard" aria-label="Scoreboard">
+        <div class="score-card score-x"><span>You (X)</span><strong id="x-score">0</strong></div>
+        <div class="score-card score-draw"><span>Draws</span><strong id="draw-score">0</strong></div>
+        <div class="score-card score-o"><span>Computer (O)</span><strong id="o-score">0</strong></div>
+      </section>
+
+      <section class="game-card">
+        <div class="status-row">
+          <p id="status" aria-live="polite">Your turn</p>
+          <button id="reset-round" class="text-button" type="button">New round</button>
+        </div>
+
+        <div id="board" class="board" role="grid" aria-label="Tic tac toe board">
+          <button class="cell" type="button" role="gridcell" aria-label="Top left"></button>
+          <button class="cell" type="button" role="gridcell" aria-label="Top middle"></button>
+          <button class="cell" type="button" role="gridcell" aria-label="Top right"></button>
+          <button class="cell" type="button" role="gridcell" aria-label="Middle left"></button>
+          <button class="cell" type="button" role="gridcell" aria-label="Center"></button>
+          <button class="cell" type="button" role="gridcell" aria-label="Middle right"></button>
+          <button class="cell" type="button" role="gridcell" aria-label="Bottom left"></button>
+          <button class="cell" type="button" role="gridcell" aria-label="Bottom middle"></button>
+          <button class="cell" type="button" role="gridcell" aria-label="Bottom right"></button>
+        </div>
+      </section>
+
+      <button id="reset-scores" class="reset-button" type="button">Reset scoreboard</button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
