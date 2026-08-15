@@ -128,7 +128,7 @@ Go Live → Open in Browser
 
 GitHub: https://github.com/vedantdubey19
 
-LinkedIn: https://www.linkedin.com/in/vedant-dubey-a9697b278
+LinkedIn: https://www.linkedin.com/in/vedantdubey19
 
 ---
 
